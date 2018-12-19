@@ -3,7 +3,7 @@ import logging
 import collections
 from logging.config import dictConfig
 
-## 공통로그 생성
+## 공통로그 생성 by yhs
 def logger_initialize(file=None):
     if file is None:
         file = 'logger_setting.json'
